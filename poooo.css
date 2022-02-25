@@ -135,16 +135,19 @@ body
 #t1
 {
     font-size:3.0em;
-    margin-left:890px;
+    margin-left:990px;
     position: absolute;
     top:800px;
+}
+.things{
+  margin-left:110px;
 }
 #po2
 {
     width:370px;
     border-radius:100px;
     margin-top:500px;
-    margin-left:50px;
+    margin-left:120px;
 }
 .one
 {
@@ -474,6 +477,10 @@ body
 
 @media (min-width: 320px) and (max-width: 480px) 
 {
+  body
+  {
+    max-width: 480px;
+  }
   .navbar
 {
 
@@ -752,5 +759,54 @@ body
   animation: 
   typing 20s steps(40, end),
   blink-caret .75s step-end infinite;
+}
+}
+@media (min-width:1281px) {
+  .dropdown-content .about__icon{
+   font-size: 25px;
+  }
+  #h1{
+    position:relative;
+    top:-520px;
+    text-align: left;
+    left:520px;
+    font-size:3.0em;
+  }
+
+  
+  #po1{
+    margin-left: 800px;
+    
+  }
+
+  #t1{
+   text-align: center;
+  }
+  .slider{
+    margin-left:350px;
+  }
+  #k1{
+    font-size:3.0em;
+    text-align: left;
+    left:517px;
+    position:relative;
+  }
+  .wrapper
+{
+  display: inline-flex;
+  font-size: 10px;
+
+}
+.wrapper .icon
+{
+  margin:0 200px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index:2;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 }
