@@ -451,27 +451,35 @@ body
 {
   background: #46C1F6;
 }
-#type
-{
-  color:white;
+#end {
+  height: 50px;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  font-size:1.5em;
+}
+
+#type{
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
   overflow: hidden;
-  border-right: .15em solid white;
-  white-space:nowrap;
-  margin:0 auto;
-  letter-spacing: .15em;
-  animation: 
-  typing 20s steps(40, end),
-  blink-caret .75s step-end infinite;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
 }
+
 @keyframes typing {
-  from {width:0}
-  to {width:100%}
+  from {
+    width: 0
+  }
 }
-@keyframes blink-caret {
-  from, to {border-color: transparent}
-  50% {border-color:white;}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 
 
@@ -558,14 +566,14 @@ body
     width:350px;
     border-radius:100px;
     margin-top:550px;
-    margin-left:30px;
+    margin-left:33px;
 }
 .things
 {
   margin-top: 530px;
   position:relative;
   right:600px;
-  margin-left:25px;
+  margin-left:15px;
 }
 .one
 {
@@ -682,7 +690,7 @@ body
 }
 .wrapper .icon
 {
-  margin: 0 50px;
+  margin: 0 47px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -742,18 +750,9 @@ body
   transform:translate(-50%) rotate(45deg);
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-#type
-{
-  color:white;
-  text-align: center;
-  font-size:1.0em;
-  overflow: hidden;
-  border-right: .15em solid white;
-  white-space:nowrap;
-  margin:0 auto;
-  letter-spacing: .15em;
-  animation: 
-  typing 20s steps(40, end),
-  blink-caret .75s step-end infinite;
+#type{
+  font-size:1.5em;
+  position:absolute;
+  left:50px;
 }
 }
