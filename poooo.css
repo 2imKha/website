@@ -529,7 +529,7 @@ body
 {
     margin-top:165px;
     color:white;
-    margin-left:75px;
+    margin-left:67px;
     font-size:4.0em;
 }
 #b2
@@ -537,11 +537,11 @@ body
     color:white;
     margin-top:-460px;
     font-size: 1.0em;
-    margin-left:83px;
+    margin-left:75px;
 }
 #po1
 {
-    margin-left:68px;
+    margin-left:60px;
     height:420px;
     margin-top:30px;
     border-radius: 30px;
@@ -558,14 +558,14 @@ body
     width:350px;
     border-radius:100px;
     margin-top:550px;
-    margin-left:70px;
+    margin-left:50px;
 }
 .things
 {
   margin-top: 530px;
   position:relative;
   right:600px;
-  margin-left:55px;
+  margin-left:35px;
 }
 .one
 {
@@ -644,7 +644,7 @@ body
 }
 .slider{
   width: 280px;
-  height: 550px;
+  height: 420px;
   border-radius: 10px;
   overflow: hidden;
   margin-top:-480px;
@@ -652,12 +652,12 @@ body
 }
 .slide img{
   width: 280px;
-  height: 550px;
+  height: 420px;
 }
 .navigation-manual{
   position: absolute;
   width: 500px;
-  margin-top: 20px;
+  margin-top: -110px;
   margin-left:50px;
   display: flex;
 }
@@ -665,7 +665,7 @@ body
   position: absolute;
   display: flex;
   width: 500px;
-  margin-top: 520px;
+  margin-top: 390px;
   margin-left:50px;
 }
 #k1
@@ -682,7 +682,7 @@ body
 }
 .wrapper .icon
 {
-  margin: 0 30px;
+  margin: 0 40px;
   cursor: pointer;
   display: flex;
   align-items: center;
