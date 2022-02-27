@@ -523,7 +523,7 @@ body
     font-size:3.5em;
     position:absolute;
     top:110px;
-    left:110px;
+    left:105px;
 }
 #b1
 {
@@ -558,7 +558,7 @@ body
     width:350px;
     border-radius:100px;
     margin-top:550px;
-    margin-left:40px;
+    margin-left:50px;
 }
 .things
 {
@@ -682,7 +682,7 @@ body
 }
 .wrapper .icon
 {
-  margin: 0 40px;
+  margin: 0 45px;
   cursor: pointer;
   display: flex;
   align-items: center;
